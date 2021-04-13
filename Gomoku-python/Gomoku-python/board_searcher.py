@@ -76,8 +76,8 @@ class BoardSearcher(object):
 
 			# calculate the move with best score
 			# alpha beta pruning: removes nodes that are evaluated by the minimax algorithm
-			# 				in the search tree, eliminates branches that cannot posibbly
-			#				influence the final decision.
+			# in the search tree, eliminates branches that cannot posibbly
+			# influence the final decision.
 			if score > alpha:
 				alpha = score
 				bestmove = (row, col)
